@@ -1,5 +1,5 @@
 FROM java:8
-LABEL maintainer="Ivan  Falchuk"
+LABEL maintainer="Ivan Falchuk"
 COPY . /
 WORKDIR /
 RUN javac DockerConnectMySQL.java
