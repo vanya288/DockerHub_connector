@@ -33,7 +33,7 @@ public class DockerConnectMySQL {
                 System.out.println("Add new restaurant (1)");
                 System.out.println("Show restaurants (2)");
                 System.out.println("Exit (0)");
-                t = (String) menu.next();
+                t = (String) choises.next();
                 switch (t) {
                     case "1": {
                         Scanner insert = new Scanner(System.in);
